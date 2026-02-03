@@ -1,0 +1,48 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+TAB                                                                               0x0200      16
+TABA1                                                                             0x0210      12
+A0                                                                                0x021C       4
+A1                                                                                0x0220       4
+A2                                                                                0x0224       4
+A3                                                                                0x0228       4
+A4                                                                                0x022C       4
+A5                                                                                0x0230       4
+Tout1                                                                             0x0234       6
+TABA2                                                                             0x023A      16
+B0                                                                                0x024A       4
+B1                                                                                0x024E       4
+B2                                                                                0x0252       4
+B3                                                                                0x0256       4
+B4                                                                                0x025A       4
+B5                                                                                0x025E       4
+B6                                                                                0x0262       4
+B7                                                                                0x0266       4
+Tout2                                                                             0x026A       8
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+err                                                                               R4           1
+umd                                                                               R3           1
+templ                                                                             R6           1
+S                                                                                 R5           1
+Q                                                                                 R8           1
+in                                                                                R7           1
+out                                                                               R10          1
+timp                                                                              R11,R12      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+test_RST                                                                          0x000CB      7
+clc                                                                               0x000D2     18
+cls1                                                                              0x000E4     22
+cls2                                                                              0x000FA     24
+timer0_ovf_isr                                                                    0x00112    205
+main                                                                              0x001DF     89
